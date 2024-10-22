@@ -32,7 +32,7 @@
                 <!-- Black heart image division and related text -->
                 <div>
 
-                    <img src="images/black-heart.png" alt="A black heart image logo" />
+                    <img class="blackHeart" src="images/black-heart.png" alt="A black heart image logo" />
 
                     <span>
                         Nifty Penguin Magic
@@ -80,13 +80,18 @@
             <div>
 
                 <!-- NPM logo image division -->
-                <img src="images/npm-logo.png" alt="NPM logo"/>
+                <img class="npmLogo" src="images/npm-logo.png" alt="NPM logo"/>
 
                 <!-- Search bar form -->
                 <form>
 
-                    <!-- Search icon -->
-                    <img src="images/magnifying-glass.png" alt="Search bar icon" />
+                    <!-- Search form label -->
+                    <label for="search">
+
+                        <!-- Using search icon image as label -->
+                        <img src="images/magnifying-glass.png" alt="Search icon" />
+
+                    </label>
 
                     <!-- Search box input -->
                     <input type="search" placeholder="Search packages" />
@@ -103,12 +108,19 @@
 
                     <!-- Join button -->
                     <a href="#join" target="_blank">
-                        Join
+
+                        <button class="joinButton">
+                            Join
+                        </button>
+                        
                     </a>
 
                     <!-- Log in button -->
                     <a href="#log-in" target="_blank">
-                        Log In
+
+                        <button>
+                            Log In
+                        </button>
                     </a>
 
                 </div>
