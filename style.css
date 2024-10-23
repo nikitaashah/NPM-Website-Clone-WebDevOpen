@@ -138,7 +138,7 @@ a {
     font-weight: bolder;
 }
 
-#upperSection article {
+#upperSection article, #middleSection article {
     margin-top: 20px;
 }
 
@@ -187,4 +187,46 @@ a {
 
 .joinForFreeButton:hover {
     background-color: rgb(210, 188, 188);
+}
+
+#middleSection {
+    background-color: white;
+    height: 600px;
+    padding: 20px;
+    text-align: center;
+    display: flexbox;
+    justify-content: space-between;
+}
+
+#middleSection img {
+    margin-top: 20px;
+    padding-top: 50px;
+    max-width: 50%;
+    max-height: 40%;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#middleSection h2 {
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    font-style: italic;
+    display: inline-block;
+    background-color: rgba(255,204,53,.4);
+    transform: skew(9deg,0deg);
+    padding: 5px 30px 5px 30px;
+    
+}
+
+#middleSection article p {
+    font-size: 14px;
+    line-height: 1.6;
+    width: 700px;
+    margin: 10px auto 20px;
+    font-weight: bold;
 }
