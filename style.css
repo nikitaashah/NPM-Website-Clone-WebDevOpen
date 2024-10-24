@@ -230,3 +230,74 @@ a {
     margin: 10px auto 20px;
     font-weight: bold;
 }
+
+#lowerSection {
+    background-color: white;
+    height: 600px;
+    padding: 20px;
+    text-align: center;
+    display: flexbox;
+    justify-content: space-between;
+}
+
+#lowerSection > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+#lowerSection div div {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+    border: 1px;
+    box-sizing: border-box;
+}
+
+#lowerSection div div img {
+    height: 30px;
+    display: block;
+    justify-content: left;
+    align-items: center;
+    margin-left: 0;
+    max-width: 50%;
+    max-height: 50%;
+    object-fit: cover;
+}
+
+#lowerSection div div h3 {
+    color: #ED1C24;
+    margin-top: 30px;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+#lowerSection div div p {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    line-height: 1.6;
+    width: 250px;
+}
+
+#lowerSection a button {
+    margin-top: 50px;
+    padding: 10px 160px;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    cursor: pointer;
+    border: none;
+}
+
+#lowerSection a button:hover {
+    background-color: rgb(68, 63, 63);
+    box-shadow: 8px 8px 0 rgba(128,83,35,.3);
+}
